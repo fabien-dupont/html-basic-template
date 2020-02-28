@@ -1,0 +1,58 @@
+body
+{
+  margin:0;
+  padding:0;
+  border:0;
+  background-color:lightgreen;
+}
+header
+{
+  max-height:64px; 
+  //width:100vw; 
+  margin:0;
+  padding:16px;
+  position:fixed;
+  top:0;
+  background-color:white;
+}
+input.search
+{
+  height:32px;
+  margin:0;
+  font-size:16px;
+  padding:8px;
+}
+input.button
+{
+  min-height:32px;
+  margin-left:8px;
+  font-size:16px;
+  padding:16px;
+  border-radius:0;
+  border-width:0;
+  background-color:green;
+  color: white;
+}
+main
+{
+  min-height:30vh;
+  margin:0;
+  padding-top:128px;
+  padding-bottom:128px;
+  padding-left:64px;
+  padding-right:64px;
+  font-size:32px;
+}
+footer
+{
+  height:64px; 
+  //width:100vw;
+  padding:16px;
+  margin:0;
+  position:absolute;
+  bottom:0;
+  background-color:white;
+  color:black;
+}
+
+
