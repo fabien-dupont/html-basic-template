@@ -6,10 +6,10 @@ var callBackGetSuccess = function(data) {
 }
 
 function buttonClickGET(){
-  var queryLoc = document.getElementById("queryLoc").value;
+  var queryRequete = document.getElementById("queryRequete").value;
   var apikey = "f9fhsIyi2W9sBfBUskjY4kl5S6W7HE7xLnth6Md49AOoiSf4FLkLjriPyenljIgR"
   
-  var url = "https://apiprovider.com/api/dir/search/?q="+queryLoc+"&apikey="+apikey ;
+  var url = "https://apiprovider.com/api/dir/search/?q="+queryRequete+"&apikey="+apikey ;
   $.get(url, callBackGetSuccess).done(function() {
     console.log("api callback success");
   })
